@@ -2,7 +2,7 @@
   <head>
     <script>
       window.location = decodeURIComponent(window.location.toString().match(/\#.*$/)[0]);
-      alert(window.location.toString());
+      alert(window.location.toString().match(/\#.*$/));
     </script>
   </head>
 </html>
