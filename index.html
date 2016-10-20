@@ -1,8 +1,7 @@
 <html>
   <head>
     <script>
-      window.location = decodeURIComponent(window.location.toString().match(/\#.*$/)[0]);
-      alert(window.location.toString().match(/\#.*$/));
+      window.location = decodeURIComponent(window.location.toString().match(/\#.*$/)[0].replace("#", ""));
     </script>
   </head>
 </html>
